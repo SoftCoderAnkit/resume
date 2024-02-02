@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #edcdcd;
+  }
+
+  header {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #f29f9f;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(7, 7, 7, 0.1);
+  }
+  
+
+  section {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #a19d9d;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(7, 7, 7, 0.1);
+  }
+
+  h1, h2, h3 {
+    color: #0c0a0a;
+  }
+
+  p {
+  
+    color: #220404;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  li {
+    margin-bottom: 10px;
+  }
+
+  /* .education, .experience {
+    margin-bottom: 20px;
+  } */
+
+  .education h3, .experience h3 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
+  #imag{
+   align-items: last baseline;
+   width: 100px;
+   height: 100px;
+   border: 2px solid red;
+   border-radius: 50%;
+  }
+  .first {
+    display: flex;
+  }
+  
+  .info,.education {
+    width: 1000px; /* Set your desired width */
+    height: 200px; /* Set your desired height */
+    margin: 10px; /* Add margin if you want space between the divs */
+    background-color: #c0b2b2; /* Set your desired background color */
+  }
+  
+  .name,.img{
+   display: flex;
+    justify-content: center;
+  }
